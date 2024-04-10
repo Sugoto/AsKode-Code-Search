@@ -1,0 +1,2 @@
+[console_scripts]
+askode = kode_search.app:cli
