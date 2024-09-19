@@ -3,8 +3,6 @@ from whoosh.index import create_in, open_dir
 from whoosh.fields import Schema, TEXT, ID
 from whoosh import index
 
-
-# Function to index documents
 def index_docs(directory, writer):
     indexed_files = 0
     for root, _, files in os.walk(directory):
